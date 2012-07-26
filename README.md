@@ -11,7 +11,7 @@ The code for this game is open for everyone.
 
 All art, sound effects and voice recordings remain copyright 2011-2012.
 
-Engine: Flixel-iOS Copyrigh (c) 2009-2010, Semi Secret Software, LLC
+Engine: Flixel-iOS Copyright (c) 2009-2010, Semi Secret Software, LLC
 
 See license.txt for license details
 
