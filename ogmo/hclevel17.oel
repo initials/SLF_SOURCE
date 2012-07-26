@@ -1,0 +1,68 @@
+<level>
+  <width>1000</width>
+  <height>480</height>
+  <solids>
+    <rect x="0" y="0" w="1000" h="10"/>
+    <rect x="0" y="10" w="10" h="470"/>
+    <rect x="10" y="400" w="990" h="80"/>
+    <rect x="50" y="140" w="290" h="20"/>
+    <rect x="60" y="10" w="60" h="70"/>
+    <rect x="60" y="320" w="40" h="20"/>
+    <rect x="190" y="270" w="60" h="20"/>
+    <rect x="320" y="10" w="20" h="130"/>
+    <rect x="370" y="210" w="30" h="150"/>
+    <rect x="470" y="280" w="120" h="20"/>
+    <rect x="510" y="260" w="20" h="20"/>
+    <rect x="550" y="370" w="20" h="30"/>
+    <rect x="650" y="220" w="20" h="20"/>
+    <rect x="730" y="210" w="30" h="150"/>
+    <rect x="800" y="10" w="30" h="230"/>
+    <rect x="860" y="280" w="20" h="20"/>
+    <rect x="920" y="200" w="80" h="30"/>
+    <rect x="990" y="10" w="10" h="190"/>
+    <rect x="990" y="230" w="10" h="170"/>
+  </solids>
+  <extraPlatforms>
+    <level2_spike0 x="550" y="360" width="20" height="10"/>
+    <LargeCrate x="50" y="80"/>
+    <level2_specialBlock x="330" y="270" speed="40" movementType="1" animated="0"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level2_specialBlock x="10" y="160" speed="120" movementType="1" animated="0">
+      <node x="10" y="330"/>
+    </level2_specialBlock>
+  </movingPlatforms>
+  <BGLayer1>
+    <level2_MG2 x="0" y="140" scrollFactor="0.1"/>
+    <level2_pipe1 x="10" y="240" width="690" height="70" scrollFactor="0.1"/>
+    <level2_greenPipe x="140" y="0" width="20" height="480" scrollFactor="0.2"/>
+    <level2_greenPipe x="370" y="0" width="20" height="480" scrollFactor="0.4"/>
+  </BGLayer1>
+  <BGLayer2>
+    <level2_metalPipe x="200" y="0" width="30" height="480" scrollFactor="0.6"/>
+    <level2_tank x="250" y="0" scrollFactor="0.8"/>
+    <level2_FMG3 x="50" y="90" scrollFactor="0.7"/>
+    <level2_greenPipe x="510" y="0" width="20" height="480" scrollFactor="0.7"/>
+    <level2_tank x="470" y="180" scrollFactor="0.7"/>
+  </BGLayer2>
+  <objects>
+    <exit x="939" y="110"/>
+    <L1_SmallCrate x="215" y="246" width="32"/>
+    <L1_SmallCrate x="541" y="251" width="32"/>
+    <Bottle x="151" y="68" width="12"/>
+  </objects>
+  <characters>
+    <player x="457" y="356" speed="40" movementType="1" startsFirst="0" levelName="Summer in December" andreInitialFlip="1" liselotInitialFlip="0" followWidth="0" followHeight="0">
+      <node x="482" y="359"/>
+    </player>
+    <liselot x="59" y="352" speed="40" movementType="1">
+      <node x="89" y="353"/>
+    </liselot>
+    <worker x="131" y="103" speed="40" movementType="1">
+      <node x="282" y="99"/>
+    </worker>
+  </characters>
+  <FGLayer1>
+    <level2_chainTile x="241" y="3" width="12" height="477" scrollFactor="2"/>
+  </FGLayer1>
+</level>

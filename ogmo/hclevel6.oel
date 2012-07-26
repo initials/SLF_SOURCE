@@ -1,0 +1,120 @@
+<level>
+  <width>1800</width>
+  <height>500</height>
+  <solids>
+    <rect x="0" y="0" w="300" h="10"/>
+    <rect x="0" y="10" w="10" h="490"/>
+    <rect x="10" y="180" w="840" h="50"/>
+    <rect x="10" y="380" w="1390" h="120"/>
+    <rect x="180" y="10" w="70" h="110"/>
+    <rect x="620" y="10" w="310" h="10"/>
+    <rect x="690" y="20" w="240" h="10"/>
+    <rect x="690" y="30" w="40" h="90"/>
+    <rect x="950" y="10" w="450" h="370"/>
+    <rect x="1400" y="470" w="400" h="30"/>
+    <rect x="1420" y="80" w="20" h="20"/>
+    <rect x="1420" y="360" w="20" h="20"/>
+    <rect x="1440" y="100" w="20" h="20"/>
+    <rect x="1460" y="420" w="20" h="20"/>
+    <rect x="1480" y="140" w="20" h="20"/>
+    <rect x="1480" y="300" w="20" h="20"/>
+    <rect x="1500" y="160" w="20" h="20"/>
+    <rect x="1500" y="280" w="20" h="20"/>
+    <rect x="1520" y="260" w="20" h="20"/>
+    <rect x="1540" y="200" w="20" h="20"/>
+    <rect x="1560" y="220" w="20" h="20"/>
+    <rect x="1630" y="390" w="150" h="10"/>
+    <rect x="1630" y="400" w="100" h="10"/>
+    <rect x="1630" y="410" w="90" h="50"/>
+    <rect x="1720" y="430" w="10" h="30"/>
+    <rect x="1730" y="410" w="10" h="20"/>
+    <rect x="1730" y="440" w="10" h="20"/>
+    <rect x="1740" y="400" w="10" h="10"/>
+    <rect x="1740" y="420" w="20" h="10"/>
+    <rect x="1740" y="430" w="10" h="10"/>
+    <rect x="1740" y="450" w="40" h="10"/>
+    <rect x="1750" y="410" w="10" h="10"/>
+    <rect x="1750" y="440" w="30" h="10"/>
+    <rect x="1760" y="400" w="20" h="10"/>
+    <rect x="1760" y="430" w="20" h="10"/>
+    <rect x="1770" y="410" w="10" h="20"/>
+    <rect x="1790" y="0" w="10" h="470"/>
+  </solids>
+  <fakesolids>
+    <rect x="930" y="10" w="20" h="20"/>
+  </fakesolids>
+  <extraPlatforms>
+    <spike0 x="180" y="370" width="140" height="10"/>
+    <level1_specialBlock x="910" y="260" speed="40" movementType="1" animated="0"/>
+    <level1_specialBlock x="850" y="130" speed="40" movementType="1" animated="0"/>
+    <spike2 x="400" y="230" width="150" height="10"/>
+    <spike0 x="850" y="120" width="40" height="10"/>
+    <spike0 x="910" y="250" width="40" height="10"/>
+    <spike2 x="850" y="170" width="40" height="10"/>
+    <spike2 x="910" y="300" width="40" height="10"/>
+    <spike3 x="840" y="130" width="10" height="40"/>
+    <spike1 x="890" y="130" width="10" height="40"/>
+    <spike3 x="900" y="260" width="10" height="40"/>
+    <spike0 x="400" y="170" width="150" height="10"/>
+    <LargeCrate x="670" y="120"/>
+    <LargeCrate x="160" y="120"/>
+    <spike1 x="250" y="10" width="10" height="110"/>
+    <spike3 x="680" y="20" width="10" height="100"/>
+    <helpBox x="1660" y="330" type="0" helpString="Nicely done!"/>
+    <helpBox x="720" y="320" type="0" helpString="Keep your eyes peeled."/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level1_specialPlatform x="850" y="70" speed="160" movementType="1" animated="0">
+      <node x="850" y="360"/>
+    </level1_specialPlatform>
+    <level1_specialPlatformSmall x="180" y="300" speed="160" movementType="1" animated="1">
+      <node x="280" y="300"/>
+    </level1_specialPlatformSmall>
+    <level1_specialPlatformSmall x="400" y="100" speed="160" movementType="1" animated="1">
+      <node x="510" y="100"/>
+    </level1_specialPlatformSmall>
+  </movingPlatforms>
+  <BGLayer1>
+    <level1_windows x="270" y="90" width="240" height="54" scrollFactor="0.1"/>
+    <level1_windows x="660" y="90" width="240" height="54" scrollFactor="0.1"/>
+    <L1_Shelf x="110" y="80" scrollFactor="0.2"/>
+    <L1_Shelf x="620" y="80" scrollFactor="0.2"/>
+    <noticeBoard x="470" y="100" scrollFactor="0.2"/>
+    <noticeBoard x="120" y="300" scrollFactor="0.2"/>
+    <noticeBoard x="520" y="310" scrollFactor="0.2"/>
+    <level1_shelfTile x="360" y="60" width="320" height="400" scrollFactor="0.3"/>
+  </BGLayer1>
+  <BGLayer2>
+    <cratesBox x="320" y="210" scrollFactor="0.7"/>
+    <palettes x="670" y="340" scrollFactor="0.85"/>
+    <palettes x="780" y="340" scrollFactor="0.2"/>
+    <palettes x="190" y="340" scrollFactor="0.87"/>
+    <sugarBagsAndCrates x="740" y="250" scrollFactor="0.76"/>
+    <sugarBags x="540" y="340" scrollFactor="0.8"/>
+    <sugarBags x="0" y="340" scrollFactor="0.8"/>
+    <sugarBags x="90" y="140" scrollFactor="0.75"/>
+  </BGLayer2>
+  <BGLayer3>
+    <sodaPack x="560" y="360" scrollFactor="0.2"/>
+    <palettes x="600" y="340" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <smallSugarBag x="926" y="356" width="22"/>
+    <exit x="577" y="90"/>
+    <Bottle x="1762" y="355" width="12"/>
+  </objects>
+  <characters>
+    <player x="16" y="335" speed="40" movementType="1" startsFirst="1" levelName="Wack Kerojack" andreInitialFlip="0" liselotInitialFlip="0" followWidth="960" followHeight="500">
+      <node x="50" y="335"/>
+    </player>
+    <army x="409" y="336" speed="120" movementType="1">
+      <node x="822" y="324"/>
+    </army>
+    <liselot x="15" y="134" speed="40" movementType="1">
+      <node x="63" y="131"/>
+    </liselot>
+    <chef x="243" y="136" speed="120" movementType="1">
+      <node x="370" y="136"/>
+    </chef>
+  </characters>
+</level>

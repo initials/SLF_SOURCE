@@ -1,0 +1,96 @@
+<level>
+  <width>1000</width>
+  <height>1000</height>
+  <solids>
+    <rect x="0" y="0" w="1000" h="10"/>
+    <rect x="0" y="10" w="10" h="990"/>
+    <rect x="10" y="390" w="560" h="70"/>
+    <rect x="10" y="670" w="90" h="80"/>
+    <rect x="10" y="900" w="990" h="100"/>
+    <rect x="90" y="580" w="120" h="30"/>
+    <rect x="100" y="750" w="110" h="60"/>
+    <rect x="260" y="810" w="50" h="20"/>
+    <rect x="270" y="610" w="100" h="30"/>
+    <rect x="440" y="600" w="100" h="300"/>
+    <rect x="460" y="180" w="40" h="20"/>
+    <rect x="460" y="460" w="90" h="80"/>
+    <rect x="540" y="250" w="20" h="20"/>
+    <rect x="630" y="350" w="40" h="20"/>
+    <rect x="650" y="540" w="20" h="20"/>
+    <rect x="650" y="670" w="20" h="20"/>
+    <rect x="700" y="140" w="20" h="20"/>
+    <rect x="710" y="740" w="20" h="20"/>
+    <rect x="740" y="520" w="20" h="20"/>
+    <rect x="770" y="350" w="40" h="20"/>
+    <rect x="770" y="800" w="20" h="20"/>
+    <rect x="820" y="500" w="50" h="20"/>
+    <rect x="920" y="590" w="80" h="60"/>
+    <rect x="990" y="10" w="10" h="580"/>
+    <rect x="990" y="650" w="10" h="250"/>
+  </solids>
+  <extraPlatforms>
+    <LargeCrate x="450" y="540"/>
+    <level2_spike1 x="10" y="460" width="10" height="210"/>
+    <level2_specialPlatform x="540" y="600" speed="40" movementType="1" animated="0"/>
+    <level2_specialBlock x="950" y="440" speed="40" movementType="1" animated="0"/>
+    <level2_specialBlock x="860" y="350" speed="40" movementType="1" animated="0"/>
+    <level2_spike1 x="210" y="580" width="10" height="30"/>
+    <level2_spike1 x="210" y="750" width="10" height="60"/>
+    <level2_spike1 x="310" y="810" width="10" height="20"/>
+    <level2_spike1 x="370" y="610" width="10" height="30"/>
+    <level2_spike3 x="80" y="580" width="10" height="30"/>
+    <level2_spike3 x="250" y="810" width="10" height="20"/>
+    <level2_spike3 x="260" y="610" width="10" height="30"/>
+    <level2_spike0 x="630" y="890" width="180" height="10"/>
+  </extraPlatforms>
+  <BGLayer1>
+    <level2_FMG3 x="100" y="670" scrollFactor="0.3"/>
+    <level2_greenPipe x="150" y="0" width="20" height="1000" scrollFactor="0.3"/>
+    <level2_MG2 x="0" y="740" scrollFactor="0.1"/>
+    <level2_MG2 x="0" y="230" scrollFactor="0.1"/>
+    <level2_tank x="110" y="180" scrollFactor="0.3"/>
+  </BGLayer1>
+  <BGLayer2>
+    <level2_metalPipe x="330" y="0" width="30" height="1000" scrollFactor="0.9"/>
+    <level2_pipe1 x="0" y="490" width="1000" height="70" scrollFactor="0.5"/>
+    <cratesBox x="240" y="720" scrollFactor="0.8"/>
+    <level2_greenPipe x="390" y="0" width="20" height="1000" scrollFactor="0.5"/>
+    <level2_tank x="350" y="590" scrollFactor="0.5"/>
+    <level2_greenPipe x="500" y="0" width="20" height="1000" scrollFactor="0.7"/>
+    <level2_tank x="460" y="140" scrollFactor="0.7"/>
+    <level2_braceLeft x="10" y="460"/>
+    <level2_braceRight x="970" y="650"/>
+  </BGLayer2>
+  <BGLayer3>
+    <sodaPack x="940" y="570" scrollFactor="0.2"/>
+    <palettes x="30" y="630" scrollFactor="0.2"/>
+    <sugarBags x="110" y="860" scrollFactor="0.2"/>
+    <sodaPack x="230" y="370" scrollFactor="0.2"/>
+    <level2_braceLeft x="540" y="620"/>
+    <level2_braceLeft x="550" y="460"/>
+    <level2_braceRight x="440" y="460"/>
+  </BGLayer3>
+  <objects>
+    <exit x="25" y="301"/>
+    <smallSugarBag x="28" y="582" width="22"/>
+    <Bottle x="705" y="27" width="12"/>
+  </objects>
+  <characters>
+    <liselot x="19" y="851" speed="40" movementType="1">
+      <node x="63" y="855"/>
+    </liselot>
+    <player x="937" y="855" speed="40" movementType="1" startsFirst="1" levelName="The Longest Kiss" andreInitialFlip="1" liselotInitialFlip="0" followWidth="0" followHeight="0">
+      <node x="967" y="855"/>
+    </player>
+    <chef x="249" y="855" speed="40" movementType="1">
+      <node x="714" y="854"/>
+    </chef>
+    <inspector x="107" y="356" speed="70" movementType="1">
+      <node x="533" y="358"/>
+    </inspector>
+  </characters>
+  <FGLayer1>
+    <level2_chainTile x="245" y="1" width="12" height="999" scrollFactor="1.5"/>
+    <level2_greenPipe x="752" y="7" width="20" height="993" scrollFactor="2"/>
+  </FGLayer1>
+</level>

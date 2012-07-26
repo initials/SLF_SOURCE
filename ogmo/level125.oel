@@ -1,0 +1,32 @@
+<level>
+  <width>2400</width>
+  <height>500</height>
+  <solids>
+    <rect x="0" y="390" w="2400" h="110"/>
+    <rect x="50" y="270" w="2350" h="120"/>
+  </solids>
+  <BGLayer1>
+    <level3_window x="0" y="30" width="320" height="320" scrollFactor="0.2"/>
+    <level3_painting1 x="360" y="210" scrollFactor="0.2"/>
+    <level3_painting2 x="440" y="190" scrollFactor="0.2"/>
+    <level3_painting3 x="520" y="170" scrollFactor="0.2"/>
+    <level3_window x="640" y="0" width="320" height="320" scrollFactor="0.2"/>
+    <bookCase x="870" y="180" scrollFactor="0.5"/>
+  </BGLayer1>
+  <BGLayer3>
+    <sodaPack x="1070" y="250" scrollFactor="0.2"/>
+    <palettes x="1170" y="230" scrollFactor="0.2"/>
+    <plant2 x="1040" y="170" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <exit x="2354" y="179"/>
+  </objects>
+  <characters>
+    <player x="575" y="225" speed="40" movementType="1" startsFirst="1" levelName="new level" andreInitialFlip="0" liselotInitialFlip="0" followWidth="0" followHeight="0">
+      <node x="594" y="219"/>
+    </player>
+    <liselot x="540" y="224" speed="40" movementType="1">
+      <node x="594" y="212"/>
+    </liselot>
+  </characters>
+</level>

@@ -1,0 +1,62 @@
+<level>
+  <width>1060</width>
+  <height>640</height>
+  <solids>
+    <rect x="0" y="0" w="1060" h="10"/>
+    <rect x="0" y="10" w="10" h="630"/>
+    <rect x="10" y="530" w="1050" h="110"/>
+    <rect x="240" y="480" w="50" h="50"/>
+    <rect x="390" y="430" w="30" h="100"/>
+    <rect x="580" y="400" w="20" h="130"/>
+    <rect x="800" y="420" w="260" h="50"/>
+    <rect x="950" y="220" w="20" h="20"/>
+    <rect x="950" y="260" w="110" h="160"/>
+    <rect x="950" y="470" w="110" h="60"/>
+    <rect x="1050" y="10" w="10" h="250"/>
+  </solids>
+  <extraPlatforms>
+    <LargeCrate x="790" y="470"/>
+    <level3_spike3 x="790" y="420" width="10" height="50"/>
+    <level3_specialBlock x="580" y="220" speed="40" movementType="1" animated="0"/>
+    <level3_specialBlock x="420" y="250" speed="40" movementType="1" animated="0"/>
+    <level3_specialBlock x="260" y="290" speed="40" movementType="1" animated="0"/>
+    <level3_spike0 x="290" y="520" width="30" height="10"/>
+    <level3_spike0 x="420" y="520" width="30" height="10"/>
+    <level3_spike0 x="600" y="520" width="30" height="10"/>
+    <level3_spike0 x="360" y="520" width="30" height="10"/>
+    <level3_spike0 x="550" y="520" width="30" height="10"/>
+    <helpBox x="110" y="470" type="0" helpString="You can still dash in mid-air."/>
+    <level3_spike0 x="950" y="250" width="100" height="10"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level3_specialPlatformSmall x="710" y="280" speed="80" movementType="1" animated="1">
+      <node x="710" y="450"/>
+    </level3_specialPlatformSmall>
+  </movingPlatforms>
+  <BGLayer1>
+    <level3_window x="0" y="210" width="960" height="320" scrollFactor="0.2"/>
+    <level3_painting1 x="20" y="80" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <filingCab2 x="360" y="470" scrollFactor="0.9"/>
+    <filingCab2 x="520" y="470" scrollFactor="0.9"/>
+  </BGLayer2>
+  <BGLayer3>
+    <plant2 x="20" y="430" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <exit x="41" y="440"/>
+    <Bottle x="1000" y="79" width="12"/>
+  </objects>
+  <characters>
+    <player x="79" y="485" speed="40" movementType="1" startsFirst="1" levelName="Wait For It" andreInitialFlip="0" liselotInitialFlip="1" followWidth="960" followHeight="640">
+      <node x="118" y="489"/>
+    </player>
+    <liselot x="924" y="484" speed="40" movementType="1">
+      <node x="968" y="491"/>
+    </liselot>
+    <chef x="798" y="376" speed="40" movementType="1">
+      <node x="924" y="374"/>
+    </chef>
+  </characters>
+</level>

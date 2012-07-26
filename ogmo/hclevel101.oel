@@ -1,0 +1,46 @@
+<level>
+  <width>2400</width>
+  <height>500</height>
+  <solids>
+    <rect x="0" y="0" w="1460" h="120"/>
+    <rect x="0" y="390" w="2400" h="110"/>
+    <rect x="1460" y="270" w="940" h="60"/>
+    <rect x="1730" y="330" w="670" h="60"/>
+  </solids>
+  <extraPlatforms>
+    <LargeCrate x="1480" y="330"/>
+  </extraPlatforms>
+  <BGLayer1>
+    <level1_windows x="0" y="260" width="960" height="54" scrollFactor="0.1"/>
+    <L1_Shelf x="0" y="110" scrollFactor="0.2"/>
+    <L1_Shelf x="250" y="110" scrollFactor="0.2"/>
+    <L1_Shelf x="490" y="110" scrollFactor="0.2"/>
+    <L1_Shelf x="730" y="110" scrollFactor="0.2"/>
+    <level1_windows x="960" y="140" width="480" height="54" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <level1_shelfTile x="140" y="20" width="1440" height="480" scrollFactor="0.6"/>
+    <cratesBox x="560" y="210" scrollFactor="0.7"/>
+    <sugarBagsAndCrates x="990" y="260" scrollFactor="0.6"/>
+  </BGLayer2>
+  <BGLayer3>
+    <sugarBags x="730" y="350" scrollFactor="0.2"/>
+    <sodaPack x="1160" y="370" scrollFactor="0.2"/>
+    <palettes x="950" y="350" scrollFactor="1"/>
+  </BGLayer3>
+  <objects>
+    <exit x="2354" y="179"/>
+    <L1_SmallCrate x="1511" y="235" width="32"/>
+  </objects>
+  <characters>
+    <player x="634" y="345" speed="40" movementType="1" startsFirst="1" levelName="Warehouse Cut Scene" andreInitialFlip="0" liselotInitialFlip="1">
+      <node x="723" y="339"/>
+    </player>
+    <liselot x="1605" y="343" speed="40" movementType="1">
+      <node x="1679" y="331"/>
+    </liselot>
+  </characters>
+  <FGLayer1>
+    <L1_Shelf x="1494" y="70" scrollFactor="2"/>
+  </FGLayer1>
+</level>

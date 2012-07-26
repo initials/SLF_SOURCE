@@ -1,0 +1,75 @@
+<level>
+  <width>1600</width>
+  <height>1100</height>
+  <solids>
+    <rect x="0" y="0" w="10" h="1100"/>
+    <rect x="10" y="800" w="80" h="300"/>
+    <rect x="90" y="840" w="80" h="260"/>
+    <rect x="170" y="940" w="1430" h="160"/>
+    <rect x="560" y="840" w="210" h="100"/>
+    <rect x="1020" y="840" w="190" h="100"/>
+    <rect x="1210" y="900" w="390" h="40"/>
+    <rect x="1590" y="0" w="10" h="900"/>
+  </solids>
+  <extraPlatforms>
+    <level2_spike0 x="170" y="930" width="390" height="10"/>
+    <level2_spike0 x="770" y="930" width="250" height="10"/>
+    <helpBox x="50" y="780" type="0" helpString="These platforms will start to move when you land on it."/>
+    <helpBox x="680" y="780" type="0" helpString="Some platforms will stop moving once they reach their destination."/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level2_specialPlatformSmall x="170" y="840" speed="80" movementType="2" animated="1">
+      <node x="520" y="840"/>
+    </level2_specialPlatformSmall>
+    <level2_specialPlatformSmall x="770" y="840" speed="60" movementType="4" animated="1">
+      <node x="980" y="840"/>
+    </level2_specialPlatformSmall>
+  </movingPlatforms>
+  <BGLayer1>
+    <level2_window x="340" y="720" width="200" height="50" scrollFactor="0.1"/>
+    <level2_FMG3 x="90" y="770" scrollFactor="0.2"/>
+    <level2_greenPipe x="290" y="30" width="20" height="690" scrollFactor="0.3"/>
+    <level2_tank x="250" y="690" scrollFactor="0.3"/>
+    <level2_window x="670" y="660" width="100" height="50" scrollFactor="0.1"/>
+    <level2_FMG3 x="820" y="660" scrollFactor="0.55"/>
+    <level2_FMG3 x="550" y="660" scrollFactor="0.5"/>
+  </BGLayer1>
+  <BGLayer2>
+    <level2_metalPipe x="360" y="90" width="30" height="910" scrollFactor="0.4"/>
+    <level2_MG2 x="0" y="620" scrollFactor="0.2"/>
+    <level2_greenPipe x="440" y="120" width="20" height="880" scrollFactor="0.5"/>
+    <level2_tank x="400" y="480" scrollFactor="0.5"/>
+    <level2_pipe1 x="470" y="500" width="1130" height="70" scrollFactor="0.5"/>
+    <level2_metalPipe x="750" y="30" width="30" height="970" scrollFactor="0.9"/>
+    <level2_metalPipe x="1050" y="60" width="30" height="940" scrollFactor="0.2"/>
+  </BGLayer2>
+  <BGLayer3>
+    <palettes x="650" y="800" scrollFactor="0.2"/>
+    <sugarBags x="1110" y="800" scrollFactor="0.2"/>
+    <palettes x="1320" y="860" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <exit x="1480" y="810"/>
+    <andreCheckPoint x="563" y="783" player="1"/>
+    <liselotCheckPoint x="1027" y="782" player="1"/>
+    <Bottle x="884" y="726" width="12"/>
+  </objects>
+  <characters>
+    <liselot x="624" y="794" speed="40" movementType="1">
+      <node x="656" y="796"/>
+    </liselot>
+    <player x="28" y="755" speed="40" movementType="1" startsFirst="1" levelName="Locomotion, Our Hearts Intertwined" andreInitialFlip="0" liselotInitialFlip="0" followWidth="0" followHeight="0">
+      <node x="62" y="757"/>
+    </player>
+    <worker x="1210" y="863" speed="40" movementType="1">
+      <node x="1572" y="863"/>
+    </worker>
+  </characters>
+  <FGLayer1>
+    <level2_chainTile x="403" y="174" width="12" height="826" scrollFactor="1.7"/>
+    <level2_chainTile x="1100" y="104" width="12" height="895" scrollFactor="2"/>
+    <level2_metalPipe x="577" y="53" width="30" height="947" scrollFactor="1.4"/>
+    <level2_greenPipe x="1184" y="5" width="20" height="995" scrollFactor="2.2"/>
+    <level2_tank x="1146" y="533" scrollFactor="2.2"/>
+  </FGLayer1>
+</level>

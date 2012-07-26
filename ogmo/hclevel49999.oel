@@ -1,0 +1,33 @@
+<level>
+  <width>480</width>
+  <height>320</height>
+  <solids>
+    <rect x="0" y="0" w="480" h="20"/>
+    <rect x="0" y="20" w="10" h="300"/>
+    <rect x="10" y="220" w="470" h="100"/>
+    <rect x="470" y="20" w="10" h="200"/>
+  </solids>
+  <BGLayer1>
+    <level3_painting1 x="20" y="100" scrollFactor="0.2"/>
+    <level3_painting2 x="310" y="100" scrollFactor="0.2"/>
+    <level3_painting3 x="390" y="100" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <bookCase x="20" y="130" scrollFactor="0.2"/>
+    <filingCab2 x="430" y="160" scrollFactor="0.2"/>
+  </BGLayer2>
+  <BGLayer3>
+    <level3_desk1 x="70" y="150"/>
+    <level3_desk2 x="300" y="150"/>
+    <plant1 x="190" y="110" scrollFactor="0.2"/>
+    <plant2 x="410" y="120" scrollFactor="0.2"/>
+  </BGLayer3>
+  <characters>
+    <player x="210" y="175" speed="40" movementType="1" startsFirst="1" levelName="new level" andreInitialFlip="0" liselotInitialFlip="1" followWidth="0" followHeight="0">
+      <node x="237" y="174"/>
+    </player>
+    <liselot x="260" y="175" speed="40" movementType="1">
+      <node x="332" y="171"/>
+    </liselot>
+  </characters>
+</level>

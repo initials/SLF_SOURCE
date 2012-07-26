@@ -1,0 +1,83 @@
+<level>
+  <width>1200</width>
+  <height>640</height>
+  <solids>
+    <rect x="0" y="0" w="1200" h="10"/>
+    <rect x="0" y="10" w="10" h="630"/>
+    <rect x="10" y="430" w="140" h="30"/>
+    <rect x="10" y="550" w="1190" h="90"/>
+    <rect x="70" y="20" w="20" h="20"/>
+    <rect x="90" y="240" w="50" h="60"/>
+    <rect x="100" y="460" w="70" h="30"/>
+    <rect x="140" y="260" w="430" h="40"/>
+    <rect x="180" y="20" w="20" h="20"/>
+    <rect x="290" y="140" w="80" h="120"/>
+    <rect x="290" y="300" w="80" h="160"/>
+    <rect x="470" y="20" w="20" h="20"/>
+    <rect x="540" y="240" w="30" h="20"/>
+    <rect x="560" y="20" w="20" h="20"/>
+    <rect x="660" y="240" w="30" h="60"/>
+    <rect x="690" y="260" w="390" h="40"/>
+    <rect x="830" y="140" w="130" h="120"/>
+    <rect x="830" y="300" w="130" h="190"/>
+    <rect x="1070" y="490" w="20" h="20"/>
+    <rect x="1090" y="330" w="20" h="20"/>
+    <rect x="1120" y="430" w="20" h="20"/>
+    <rect x="1160" y="360" w="20" h="20"/>
+    <rect x="1190" y="10" w="10" h="540"/>
+  </solids>
+  <extraPlatforms>
+    <level3_spike1 x="370" y="300" width="10" height="160"/>
+    <level3_spike3 x="280" y="300" width="10" height="160"/>
+    <level3_spike2 x="290" y="460" width="80" height="10"/>
+    <level3_spike2 x="70" y="40" width="20" height="10"/>
+    <level3_spike2 x="180" y="40" width="20" height="10"/>
+    <level3_spike2 x="470" y="40" width="20" height="10"/>
+    <level3_spike2 x="560" y="40" width="20" height="10"/>
+    <LargeCrate x="860" y="490"/>
+    <level3_spike0 x="1040" y="540" width="150" height="10"/>
+    <level3_spike1 x="1080" y="260" width="10" height="40"/>
+    <LargeCrate x="100" y="490"/>
+  </extraPlatforms>
+  <BGLayer1>
+    <level3_window x="0" y="230" width="1200" height="320" scrollFactor="0.2"/>
+    <level3_salesChart x="380" y="70" width="67" height="67" scrollFactor="0.2"/>
+    <level3_painting2 x="40" y="110" scrollFactor="0.2"/>
+    <level3_painting2 x="470" y="150" scrollFactor="0.2"/>
+    <level3_painting3 x="600" y="120" scrollFactor="0.2"/>
+    <bookCase x="220" y="460" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <filingCab2 x="190" y="490" scrollFactor="0.2"/>
+    <filingCab1 x="420" y="460" scrollFactor="0.6"/>
+    <filingCab2 x="400" y="200" scrollFactor="0.9"/>
+    <filingCab2 x="740" y="200" scrollFactor="0.9"/>
+    <bookCase x="960" y="170" scrollFactor="1"/>
+  </BGLayer2>
+  <BGLayer3>
+    <plant1 x="130" y="440" scrollFactor="0.2"/>
+    <plant1 x="370" y="150" scrollFactor="0.2"/>
+    <plant2 x="270" y="160" scrollFactor="0.2"/>
+    <plant2 x="610" y="450" scrollFactor="0.2"/>
+    <plant2 x="1000" y="450" scrollFactor="0.2"/>
+    <plant2 x="50" y="330" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <exit x="165" y="171"/>
+    <L1_SmallCrate x="90" y="217" width="32"/>
+    <L1_SmallCrate x="315" y="117" width="32"/>
+    <Bottle x="608" y="267" width="12"/>
+    <L1_SmallCrate x="877" y="116" width="32"/>
+  </objects>
+  <characters>
+    <liselot x="13" y="503" speed="40" movementType="1">
+      <node x="81" y="472"/>
+    </liselot>
+    <player x="797" y="506" speed="40" movementType="1" startsFirst="1" levelName="Action And Action" andreInitialFlip="1" liselotInitialFlip="0" followWidth="690" followHeight="640">
+      <node x="857" y="501"/>
+    </player>
+    <chef x="223" y="506" speed="70" movementType="1">
+      <node x="758" y="504"/>
+    </chef>
+  </characters>
+</level>

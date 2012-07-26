@@ -1,0 +1,72 @@
+<level>
+  <width>800</width>
+  <height>640</height>
+  <solids>
+    <rect x="0" y="0" w="800" h="10"/>
+    <rect x="0" y="10" w="160" h="170"/>
+    <rect x="0" y="180" w="10" h="460"/>
+    <rect x="10" y="450" w="150" h="190"/>
+    <rect x="160" y="630" w="640" h="10"/>
+    <rect x="350" y="140" w="240" h="40"/>
+    <rect x="480" y="430" w="320" h="200"/>
+    <rect x="490" y="180" w="100" h="190"/>
+    <rect x="630" y="140" w="170" h="230"/>
+    <rect x="790" y="10" w="10" h="130"/>
+    <rect x="790" y="370" w="10" h="60"/>
+  </solids>
+  <extraPlatforms>
+    <LargeCrate x="500" y="370"/>
+    <level1_specialPlatform x="130" y="330" speed="40" movementType="1" animated="0"/>
+    <spike0 x="170" y="620" width="300" height="10"/>
+    <spike1 x="160" y="450" width="10" height="170"/>
+    <spike3 x="470" y="450" width="10" height="170"/>
+    <spike1 x="590" y="140" width="10" height="230"/>
+    <spike3 x="620" y="140" width="10" height="230"/>
+    <level1_specialBlock x="230" y="310" speed="40" movementType="1" animated="0"/>
+    <level1_specialBlock x="250" y="270" speed="40" movementType="1" animated="0"/>
+    <spike3 x="340" y="140" width="10" height="40"/>
+    <spike1 x="290" y="270" width="10" height="40"/>
+    <spike1 x="10" y="180" width="10" height="190"/>
+    <spike2 x="40" y="180" width="120" height="10"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level1_specialPlatformSmall x="290" y="220" speed="80" movementType="1" animated="1">
+      <node x="450" y="220"/>
+    </level1_specialPlatformSmall>
+    <level1_specialPlatformSmall x="160" y="430" speed="110" movementType="2" animated="1">
+      <node x="440" y="430"/>
+    </level1_specialPlatformSmall>
+  </movingPlatforms>
+  <BGLayer1>
+    <level1_windows x="170" y="270" width="300" height="54" scrollFactor="0.1"/>
+    <noticeBoard x="170" y="380" scrollFactor="0.2"/>
+    <noticeBoard x="190" y="510" scrollFactor="0.2"/>
+    <noticeBoard x="590" y="380" scrollFactor="0.25"/>
+    <level1_shelfTile x="0" y="160" width="240" height="480" scrollFactor="0.2"/>
+    <level1_shelfTile x="410" y="160" width="160" height="480" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <sugarBagsAndCrates x="330" y="500" scrollFactor="0.65"/>
+    <sugarBagsAndCrates x="0" y="320" scrollFactor="0.6"/>
+    <noticeBoard x="180" y="80" scrollFactor="0.9"/>
+  </BGLayer2>
+  <BGLayer3>
+    <sugarBags x="390" y="100" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <exit x="486" y="50"/>
+    <L1_SmallCrate x="159" y="307" width="32"/>
+    <Bottle x="603" y="155" width="12"/>
+  </objects>
+  <characters>
+    <player x="20" y="405" speed="40" movementType="1" startsFirst="1" levelName="Hop, Skip" andreInitialFlip="0" liselotInitialFlip="1" followWidth="0" followHeight="0">
+      <node x="76" y="394"/>
+    </player>
+    <liselot x="734" y="383" speed="40" movementType="1">
+      <node x="752" y="386"/>
+    </liselot>
+    <worker x="630" y="103" speed="40" movementType="1">
+      <node x="761" y="102"/>
+    </worker>
+  </characters>
+</level>

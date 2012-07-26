@@ -1,0 +1,56 @@
+<level>
+  <width>640</width>
+  <height>640</height>
+  <solids>
+    <rect x="0" y="0" w="80" h="640"/>
+    <rect x="80" y="150" w="150" h="100"/>
+    <rect x="80" y="350" w="150" h="100"/>
+    <rect x="80" y="550" w="560" h="90"/>
+    <rect x="410" y="150" w="100" h="100"/>
+    <rect x="410" y="350" w="230" h="100"/>
+    <rect x="560" y="0" w="80" h="350"/>
+    <rect x="560" y="450" w="80" h="100"/>
+  </solids>
+  <extraPlatforms>
+    <LargeCrate x="140" y="290"/>
+    <LargeCrate x="420" y="290"/>
+    <level1_specialBlock x="170" y="250" speed="40" movementType="1" animated="0"/>
+    <level1_specialBlock x="430" y="250" speed="40" movementType="1" animated="0"/>
+    <spike3 x="550" y="0" width="10" height="150"/>
+    <LargeCrate x="140" y="490"/>
+    <level1_specialBlock x="170" y="450" speed="40" movementType="1" animated="0"/>
+    <helpBox x="110" y="290" type="0" helpString="Don't be afraid to press pause and restart the level."/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level1_specialBlock x="250" y="150" speed="50" movementType="1" animated="0">
+      <node x="250" y="440"/>
+    </level1_specialBlock>
+  </movingPlatforms>
+  <BGLayer1>
+    <level1_windows x="100" y="30" width="180" height="54" scrollFactor="0.1"/>
+    <level1_shelfTile x="70" y="0" width="480" height="560" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <sugarBags x="390" y="510" scrollFactor="0.5"/>
+    <cratesBox x="230" y="370" scrollFactor="0.6"/>
+  </BGLayer2>
+  <BGLayer3>
+    <sugarBags x="410" y="110" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <exit x="135" y="60"/>
+    <L1_SmallCrate x="500" y="328" width="32"/>
+    <Bottle x="524" y="131" width="12"/>
+  </objects>
+  <characters>
+    <player x="85" y="305" speed="40" movementType="1" startsFirst="1" levelName="Bust Out" andreInitialFlip="0" liselotInitialFlip="0" followWidth="0" followHeight="0">
+      <node x="109" y="308"/>
+    </player>
+    <liselot x="87" y="503" speed="40" movementType="1">
+      <node x="113" y="509"/>
+    </liselot>
+    <army x="235" y="503" speed="40" movementType="1">
+      <node x="530" y="511"/>
+    </army>
+  </characters>
+</level>

@@ -1,0 +1,54 @@
+<level>
+  <width>1180</width>
+  <height>860</height>
+  <solids>
+    <rect x="0" y="0" w="1180" h="240"/>
+    <rect x="0" y="240" w="410" h="50"/>
+    <rect x="0" y="290" w="10" h="570"/>
+    <rect x="10" y="400" w="400" h="170"/>
+    <rect x="10" y="690" w="1170" h="170"/>
+    <rect x="350" y="570" w="60" h="60"/>
+    <rect x="560" y="570" w="220" h="20"/>
+    <rect x="850" y="480" w="330" h="90"/>
+    <rect x="1150" y="240" w="30" h="240"/>
+    <rect x="1150" y="570" w="30" h="120"/>
+  </solids>
+  <fakesolids>
+    <rect x="160" y="290" w="250" h="110"/>
+  </fakesolids>
+  <extraPlatforms>
+    <LargeCrate x="340" y="630"/>
+  </extraPlatforms>
+  <BGLayer1>
+    <L1_Shelf x="200" y="370" scrollFactor="0.2"/>
+    <level1_shelfTile x="490" y="370" width="240" height="320" scrollFactor="0.2"/>
+    <level1_shelfTile x="840" y="290" width="320" height="400" scrollFactor="0.2"/>
+    <level1_windows x="420" y="290" width="300" height="54" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <cratesBox x="450" y="510" scrollFactor="0.8"/>
+    <sugarBagsAndCrates x="960" y="350" scrollFactor="0.98"/>
+  </BGLayer2>
+  <BGLayer3>
+    <sugarBags x="800" y="650" scrollFactor="0.2"/>
+    <palettes x="1030" y="650" scrollFactor="0.2"/>
+    <palettes x="100" y="650" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <exit x="1057" y="390"/>
+    <L1_SmallCrate x="575" y="543" width="32"/>
+    <Bottle x="802" y="362" width="12"/>
+    <smallSugarBag x="33" y="354" width="22"/>
+  </objects>
+  <characters>
+    <liselot x="1110" y="639" speed="40" movementType="1">
+      <node x="1102" y="642"/>
+    </liselot>
+    <player x="30" y="644" speed="40" movementType="1" startsFirst="1" levelName="Winnitron 1" andreInitialFlip="0" liselotInitialFlip="0" followWidth="1180" followHeight="860">
+      <node x="66" y="649"/>
+    </player>
+    <worker x="550" y="650" speed="40" movementType="1">
+      <node x="760" y="650"/>
+    </worker>
+  </characters>
+</level>

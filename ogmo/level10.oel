@@ -1,0 +1,83 @@
+<level>
+  <width>1000</width>
+  <height>640</height>
+  <solids>
+    <rect x="0" y="0" w="10" h="640"/>
+    <rect x="10" y="570" w="990" h="70"/>
+    <rect x="260" y="190" w="120" h="380"/>
+    <rect x="460" y="170" w="30" h="30"/>
+    <rect x="460" y="470" w="390" h="40"/>
+    <rect x="730" y="0" w="270" h="60"/>
+    <rect x="730" y="60" w="120" h="410"/>
+    <rect x="860" y="360" w="40" h="20"/>
+    <rect x="860" y="490" w="40" h="20"/>
+    <rect x="930" y="280" w="20" h="20"/>
+    <rect x="940" y="430" w="40" h="20"/>
+    <rect x="960" y="210" w="20" h="20"/>
+    <rect x="990" y="60" w="10" h="510"/>
+  </solids>
+  <extraPlatforms>
+    <spike0 x="10" y="560" width="40" height="10"/>
+    <spike0 x="220" y="560" width="40" height="10"/>
+    <spike1 x="10" y="310" width="10" height="70"/>
+    <spike1 x="10" y="400" width="10" height="70"/>
+    <spike3 x="250" y="310" width="10" height="70"/>
+    <spike3 x="250" y="400" width="10" height="70"/>
+    <LargeCrate x="470" y="510"/>
+    <level1_specialBlock x="200" y="210" speed="40" movementType="1" animated="0"/>
+    <LargeCrate x="810" y="510"/>
+    <spike0 x="940" y="560" width="50" height="10"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level1_specialPlatform x="10" y="290" speed="80" movementType="1" animated="0">
+      <node x="160" y="290"/>
+    </level1_specialPlatform>
+    <level1_specialPlatform x="10" y="380" speed="60" movementType="1" animated="0">
+      <node x="160" y="380"/>
+    </level1_specialPlatform>
+    <level1_specialPlatform x="10" y="470" speed="40" movementType="1" animated="0">
+      <node x="160" y="470"/>
+    </level1_specialPlatform>
+    <level1_specialBlock x="380" y="310" speed="40" movementType="1" animated="0">
+      <node x="380" y="490"/>
+    </level1_specialBlock>
+    <level1_specialBlock x="460" y="310" speed="60" movementType="1" animated="0">
+      <node x="630" y="310"/>
+    </level1_specialBlock>
+    <level1_specialPlatform x="490" y="170" speed="40" movementType="1" animated="0">
+      <node x="570" y="170"/>
+    </level1_specialPlatform>
+    <level1_specialBlock x="670" y="150" speed="120" movementType="1" animated="0">
+      <node x="670" y="310"/>
+    </level1_specialBlock>
+  </movingPlatforms>
+  <BGLayer1>
+    <level1_windows x="50" y="70" width="540" height="54" scrollFactor="0.1"/>
+    <level1_shelfTile x="10" y="0" width="240" height="640" scrollFactor="0.2"/>
+    <level1_shelfTile x="360" y="0" width="320" height="640" scrollFactor="0.3"/>
+  </BGLayer1>
+  <BGLayer2>
+    <sugarBagsAndCrates x="600" y="440" scrollFactor="0.6"/>
+    <cratesBox x="170" y="390" scrollFactor="0.7"/>
+  </BGLayer2>
+  <BGLayer3>
+    <sodaPack x="670" y="550" scrollFactor="0.2"/>
+    <sugarBags x="550" y="430" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <exit x="288" y="100"/>
+    <Bottle x="919" y="104" width="12"/>
+    <andreCheckPoint x="353" y="132" player="1"/>
+  </objects>
+  <characters>
+    <player x="116" y="525" speed="40" movementType="1" startsFirst="1" levelName="Up And Over" andreInitialFlip="0" liselotInitialFlip="1" followWidth="0" followHeight="0">
+      <node x="149" y="523"/>
+    </player>
+    <liselot x="563" y="523" speed="40" movementType="1">
+      <node x="600" y="523"/>
+    </liselot>
+    <worker x="459" y="432" speed="40" movementType="1">
+      <node x="711" y="432"/>
+    </worker>
+  </characters>
+</level>

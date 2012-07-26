@@ -1,0 +1,106 @@
+<level>
+  <width>2500</width>
+  <height>1200</height>
+  <solids>
+    <rect x="0" y="0" w="2500" h="160"/>
+    <rect x="0" y="160" w="1150" h="80"/>
+    <rect x="0" y="240" w="10" h="960"/>
+    <rect x="10" y="830" w="1010" h="90"/>
+    <rect x="10" y="920" w="540" h="280"/>
+    <rect x="90" y="510" w="1060" h="20"/>
+    <rect x="140" y="470" w="1010" h="40"/>
+    <rect x="140" y="530" w="1360" h="40"/>
+    <rect x="270" y="420" w="30" h="30"/>
+    <rect x="310" y="450" w="330" h="20"/>
+    <rect x="320" y="780" w="30" h="30"/>
+    <rect x="360" y="810" w="120" h="20"/>
+    <rect x="490" y="780" w="30" h="30"/>
+    <rect x="550" y="1070" w="1950" h="130"/>
+    <rect x="650" y="420" w="30" h="30"/>
+    <rect x="1150" y="520" w="350" h="10"/>
+    <rect x="1150" y="570" w="350" h="220"/>
+    <rect x="1150" y="790" w="120" h="220"/>
+    <rect x="1370" y="960" w="30" h="30"/>
+    <rect x="1450" y="940" w="40" h="130"/>
+    <rect x="1490" y="960" w="40" h="110"/>
+    <rect x="1500" y="690" w="1000" h="100"/>
+    <rect x="1660" y="790" w="840" h="280"/>
+    <rect x="1720" y="400" w="40" h="20"/>
+    <rect x="1730" y="600" w="20" h="20"/>
+    <rect x="1840" y="350" w="40" h="20"/>
+    <rect x="1850" y="560" w="20" h="20"/>
+    <rect x="1960" y="520" w="540" h="170"/>
+    <rect x="2490" y="160" w="10" h="360"/>
+  </solids>
+  <extraPlatforms>
+    <spike0 x="1160" y="510" width="40" height="10"/>
+    <spike1 x="1150" y="480" width="10" height="30"/>
+    <spike0 x="1510" y="680" width="440" height="10"/>
+    <spike3 x="1950" y="540" width="10" height="140"/>
+    <spike1 x="1500" y="540" width="10" height="140"/>
+    <level1_specialPlatform x="1540" y="400" speed="40" movementType="1" animated="0"/>
+    <LargeCrate x="1170" y="1010"/>
+    <spike0 x="1450" y="930" width="40" height="10"/>
+    <spike0 x="1370" y="950" width="30" height="10"/>
+    <spike2 x="850" y="570" width="300" height="10"/>
+    <spike0 x="360" y="800" width="120" height="10"/>
+    <level1_specialPlatform x="420" y="400" speed="40" movementType="1" animated="0"/>
+    <spike0 x="310" y="440" width="330" height="10"/>
+    <spike3 x="80" y="510" width="10" height="20"/>
+    <spike2 x="90" y="530" width="50" height="10"/>
+    <level1_specialPlatform x="110" y="730" speed="40" movementType="1" animated="0"/>
+    <spike0 x="10" y="820" width="350" height="10"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level1_specialPlatformSmall x="1500" y="400" speed="70" movementType="1" animated="1">
+      <node x="1500" y="520"/>
+    </level1_specialPlatformSmall>
+    <level1_specialPlatformSmall x="1070" y="600" speed="100" movementType="1" animated="1">
+      <node x="1070" y="830"/>
+    </level1_specialPlatformSmall>
+    <level1_specialPlatformSmall x="1110" y="830" speed="90" movementType="1" animated="1">
+      <node x="1110" y="990"/>
+    </level1_specialPlatformSmall>
+    <level1_specialPlatformSmall x="10" y="410" speed="120" movementType="1" animated="1">
+      <node x="10" y="730"/>
+    </level1_specialPlatformSmall>
+  </movingPlatforms>
+  <BGLayer1>
+    <L1_Shelf x="170" y="510" scrollFactor="0.5"/>
+    <level1_shelfTile x="410" y="270" width="400" height="800" scrollFactor="0.2"/>
+    <level1_shelfTile x="890" y="350" width="400" height="720" scrollFactor="0.2"/>
+    <L1_Shelf x="1440" y="750" scrollFactor="0.2"/>
+    <level1_shelfTile x="1690" y="220" width="560" height="880" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <cratesBox x="830" y="890" scrollFactor="0.8"/>
+    <sugarBagsAndCrates x="930" y="340" scrollFactor="0.98"/>
+    <cratesBox x="1960" y="340" scrollFactor="0.9"/>
+    <sugarBagsAndCrates x="810" y="700" scrollFactor="1"/>
+    <sugarBagsAndCrates x="1350" y="390" scrollFactor="1"/>
+  </BGLayer2>
+  <BGLayer3>
+    <sodaPack x="1270" y="500" scrollFactor="0.2"/>
+    <sugarBags x="1020" y="430" scrollFactor="0.2"/>
+    <palettes x="740" y="1030" scrollFactor="0.2"/>
+    <palettes x="650" y="790" scrollFactor="0.2"/>
+    <sodaPack x="1410" y="1050" scrollFactor="0.2"/>
+    <sodaPack x="170" y="450" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <exit x="2379" y="430" nextLevel="3"/>
+    <smallSugarBag x="1092" y="611" width="22"/>
+    <Bottle x="1876" y="527" width="12"/>
+  </objects>
+  <characters>
+    <liselot x="1600" y="1020" speed="40" movementType="1">
+      <node x="1636" y="1026"/>
+    </liselot>
+    <player x="624" y="1025" speed="40" movementType="1" startsFirst="1" levelName="Winnitron 4" andreInitialFlip="0" liselotInitialFlip="0" followWidth="2500" followHeight="1200">
+      <node x="666" y="1030"/>
+    </player>
+    <army x="690" y="420" speed="40" movementType="1">
+      <node x="1100" y="420"/>
+    </army>
+  </characters>
+</level>

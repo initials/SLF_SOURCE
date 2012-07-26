@@ -1,0 +1,38 @@
+<level>
+  <width>2400</width>
+  <height>500</height>
+  <solids>
+    <rect x="0" y="0" w="280" h="120"/>
+    <rect x="0" y="390" w="2400" h="110"/>
+    <rect x="520" y="270" w="1880" h="120"/>
+  </solids>
+  <BGLayer1>
+    <level1_windows x="0" y="260" width="960" height="54" scrollFactor="0.1"/>
+    <L1_Shelf x="0" y="0" scrollFactor="0.2"/>
+    <L1_Shelf x="260" y="0" scrollFactor="0.2"/>
+    <L1_Shelf x="500" y="0" scrollFactor="0.2"/>
+    <L1_Shelf x="730" y="0" scrollFactor="0.2"/>
+    <level1_windows x="960" y="140" width="480" height="54" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <level1_shelfTile x="140" y="0" width="1440" height="480" scrollFactor="0.6"/>
+    <cratesBox x="560" y="100" scrollFactor="0.7"/>
+    <sugarBagsAndCrates x="990" y="140" scrollFactor="0.6"/>
+  </BGLayer2>
+  <BGLayer3>
+    <sugarBags x="690" y="230" scrollFactor="0.2"/>
+    <sodaPack x="890" y="250" scrollFactor="0.2"/>
+    <palettes x="1260" y="230" scrollFactor="1"/>
+  </BGLayer3>
+  <objects>
+    <exit x="2354" y="179"/>
+  </objects>
+  <characters>
+    <player x="780" y="225" speed="40" movementType="1" startsFirst="1" levelName="Warehouse Cut Scene" andreInitialFlip="0" liselotInitialFlip="0" followWidth="0" followHeight="0">
+      <node x="869" y="219"/>
+    </player>
+    <liselot x="737" y="224" speed="40" movementType="1">
+      <node x="811" y="212"/>
+    </liselot>
+  </characters>
+</level>

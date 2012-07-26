@@ -1,0 +1,88 @@
+<level>
+  <width>960</width>
+  <height>640</height>
+  <solids>
+    <rect x="0" y="0" w="960" h="10"/>
+    <rect x="0" y="10" w="10" h="630"/>
+    <rect x="10" y="270" w="270" h="20"/>
+    <rect x="10" y="570" w="950" h="70"/>
+    <rect x="130" y="290" w="150" h="120"/>
+    <rect x="260" y="130" w="20" h="140"/>
+    <rect x="380" y="130" w="70" h="20"/>
+    <rect x="390" y="260" w="50" h="310"/>
+    <rect x="540" y="510" w="420" h="60"/>
+    <rect x="550" y="130" w="20" h="320"/>
+    <rect x="570" y="230" w="60" h="220"/>
+    <rect x="770" y="230" w="190" h="40"/>
+    <rect x="950" y="10" w="10" h="220"/>
+    <rect x="950" y="270" w="10" h="240"/>
+  </solids>
+  <extraPlatforms>
+    <spike3 x="120" y="290" width="10" height="120"/>
+    <level1_specialBlock x="10" y="380" speed="40" movementType="1" animated="0"/>
+    <spike1 x="280" y="160" width="10" height="250"/>
+    <spike3 x="540" y="160" width="10" height="200"/>
+    <LargeCrate x="550" y="450"/>
+    <level1_specialPlatform x="790" y="390" speed="40" movementType="1" animated="0"/>
+    <level1_specialPlatform x="280" y="130" speed="70" movementType="1" animated="0"/>
+    <level1_specialPlatform x="450" y="130" speed="40" movementType="1" animated="0"/>
+    <spike2 x="130" y="410" width="150" height="10"/>
+    <spike3 x="940" y="10" width="10" height="220"/>
+    <level1_specialBlock x="800" y="20" speed="40" movementType="1" animated="0"/>
+    <level1_specialBlock x="800" y="190" speed="40" movementType="1" animated="0"/>
+    <level1_specialPlatform x="610" y="210" speed="40" movementType="1" animated="0"/>
+    <spike0 x="400" y="250" width="30" height="10"/>
+    <spike2 x="800" y="60" width="40" height="10"/>
+    <helpBox x="360" y="70" type="0" helpString="Press 'A' while pushing a crate to give it a push."/>
+    <helpBox x="600" y="150" type="0" helpString="Double tap a crate to reset it's position."/>
+    <level1_specialBlock x="670" y="330" speed="40" movementType="1" animated="0"/>
+    <helpBox x="140" y="210" type="0" helpString="Talk to Andre by pressing 'A' while facing him."/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level1_specialPlatform x="290" y="260" speed="70" movementType="1" animated="0">
+      <node x="290" y="510"/>
+    </level1_specialPlatform>
+    <level1_specialPlatform x="440" y="260" speed="70" movementType="1" animated="0">
+      <node x="440" y="550"/>
+    </level1_specialPlatform>
+  </movingPlatforms>
+  <BGLayer1>
+    <level1_shelfTile x="550" y="190" width="400" height="320" scrollFactor="0.2"/>
+    <level1_windows x="600" y="110" width="180" height="54" scrollFactor="0.1"/>
+    <level1_windows x="60" y="350" width="420" height="54" scrollFactor="0.1"/>
+    <level1_windows x="90" y="110" width="120" height="54" scrollFactor="0.1"/>
+    <level1_windows x="300" y="20" width="240" height="54" scrollFactor="0.1"/>
+    <level1_shelfTile x="0" y="0" width="480" height="640" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <sugarBags x="180" y="530" scrollFactor="0.2"/>
+    <sugarBags x="720" y="470" scrollFactor="0.75"/>
+    <cratesBox x="310" y="390" scrollFactor="0.65"/>
+    <cratesBox x="540" y="330" scrollFactor="0.6"/>
+    <sugarBagsAndCrates x="30" y="440" scrollFactor="0.6"/>
+  </BGLayer2>
+  <BGLayer3>
+    <palettes x="80" y="230" scrollFactor="0.2"/>
+    <palettes x="280" y="90" scrollFactor="0.2"/>
+    <sodaPack x="830" y="490" scrollFactor="0.2"/>
+    <sodaPack x="250" y="550" scrollFactor="0.2"/>
+    <sodaPack x="890" y="490" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <L1_SmallCrate x="500" y="107" width="32"/>
+    <exit x="841" y="300"/>
+    <liselotCheckPoint x="870" y="173" player="1"/>
+    <Bottle x="911" y="38" width="12"/>
+  </objects>
+  <characters>
+    <player x="12" y="335" speed="40" movementType="1" startsFirst="1" levelName="Edge of the Ledge" andreInitialFlip="0" liselotInitialFlip="0" followWidth="0" followHeight="0">
+      <node x="32" y="340"/>
+    </player>
+    <liselot x="16" y="222" speed="40" movementType="1">
+      <node x="53" y="220"/>
+    </liselot>
+    <inspector x="636" y="476" speed="40" movementType="1">
+      <node x="921" y="476"/>
+    </inspector>
+  </characters>
+</level>

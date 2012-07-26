@@ -1,0 +1,60 @@
+<level>
+  <width>2400</width>
+  <height>500</height>
+  <solids>
+    <rect x="0" y="390" w="2400" h="110"/>
+    <rect x="130" y="0" w="150" h="100"/>
+    <rect x="150" y="100" w="110" h="20"/>
+    <rect x="980" y="270" w="1420" h="120"/>
+  </solids>
+  <extraPlatforms>
+    <level2_specialBlock x="300" y="190" speed="40" movementType="1" animated="0"/>
+    <level2_spike0 x="240" y="380" width="470" height="10"/>
+    <level2_specialBlock x="940" y="270" speed="40" movementType="1" animated="0"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level2_specialPlatformSmall x="240" y="320" speed="100" movementType="2" animated="1">
+      <node x="670" y="320"/>
+    </level2_specialPlatformSmall>
+    <level2_specialPlatformSmall x="900" y="270" speed="80" movementType="1" animated="1">
+      <node x="900" y="370"/>
+    </level2_specialPlatformSmall>
+  </movingPlatforms>
+  <BGLayer1>
+    <level2_window x="240" y="230" width="200" height="50" scrollFactor="0.1"/>
+    <level2_metalPipe x="190" y="0" width="30" height="500" scrollFactor="0.2"/>
+    <level2_greenPipe x="490" y="0" width="20" height="500" scrollFactor="0.2"/>
+    <level2_tank x="450" y="0" scrollFactor="0.2"/>
+    <level2_pipe1 x="520" y="20" width="1320" height="70" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <level2_greenPipe x="750" y="0" width="20" height="500" scrollFactor="0.6"/>
+    <level2_tank x="710" y="250" scrollFactor="0.6"/>
+    <level2_pipe1 x="780" y="270" width="1460" height="70" scrollFactor="0.6"/>
+    <level2_FMG3 x="1200" y="170" scrollFactor="0.7"/>
+    <level2_metalPipe x="1030" y="0" width="30" height="500" scrollFactor="0.75"/>
+    <level2_greenPipe x="1440" y="0" width="20" height="500" scrollFactor="0.8"/>
+    <level2_chainTile x="1590" y="0" width="12" height="500" scrollFactor="0.2"/>
+  </BGLayer2>
+  <BGLayer3>
+    <level2_braceRight x="130" y="100"/>
+    <level2_braceRight x="960" y="310"/>
+    <level2_braceLeft x="260" y="100"/>
+    <sodaPack x="1070" y="250" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <exit x="2354" y="179"/>
+  </objects>
+  <characters>
+    <player x="124" y="345" speed="40" movementType="1" startsFirst="1" levelName="new level">
+      <node x="213" y="339"/>
+    </player>
+    <liselot x="300" y="144" speed="40" movementType="1">
+      <node x="374" y="132"/>
+    </liselot>
+  </characters>
+  <FGLayer1>
+    <level2_chainTile x="679" y="1" width="12" height="499" scrollFactor="1.9"/>
+    <level2_chainTile x="1165" y="3" width="12" height="497" scrollFactor="2"/>
+  </FGLayer1>
+</level>

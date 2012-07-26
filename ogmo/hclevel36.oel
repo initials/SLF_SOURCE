@@ -1,0 +1,111 @@
+<level>
+  <width>1260</width>
+  <height>1260</height>
+  <solids>
+    <rect x="0" y="0" w="1260" h="10"/>
+    <rect x="0" y="10" w="10" h="1250"/>
+    <rect x="10" y="1090" w="1250" h="170"/>
+    <rect x="40" y="280" w="20" h="10"/>
+    <rect x="40" y="580" w="20" h="10"/>
+    <rect x="80" y="430" w="20" h="10"/>
+    <rect x="140" y="210" w="210" h="60"/>
+    <rect x="140" y="720" w="210" h="60"/>
+    <rect x="230" y="150" w="60" h="60"/>
+    <rect x="230" y="270" w="60" h="140"/>
+    <rect x="230" y="600" w="60" h="120"/>
+    <rect x="230" y="780" w="60" h="200"/>
+    <rect x="410" y="20" w="30" h="30"/>
+    <rect x="410" y="210" w="20" h="20"/>
+    <rect x="430" y="720" w="20" h="20"/>
+    <rect x="470" y="20" w="60" h="30"/>
+    <rect x="490" y="210" w="20" h="20"/>
+    <rect x="530" y="720" w="140" h="60"/>
+    <rect x="560" y="20" w="80" h="30"/>
+    <rect x="560" y="210" w="80" h="60"/>
+    <rect x="670" y="20" w="60" h="30"/>
+    <rect x="670" y="210" w="60" h="60"/>
+    <rect x="750" y="720" w="20" h="20"/>
+    <rect x="760" y="20" w="30" h="30"/>
+    <rect x="780" y="210" w="20" h="20"/>
+    <rect x="850" y="210" w="240" h="60"/>
+    <rect x="850" y="720" w="240" h="60"/>
+    <rect x="910" y="150" w="60" h="60"/>
+    <rect x="910" y="270" w="60" h="140"/>
+    <rect x="910" y="600" w="60" h="120"/>
+    <rect x="910" y="780" w="60" h="200"/>
+    <rect x="1140" y="790" w="20" h="10"/>
+    <rect x="1180" y="930" w="20" h="10"/>
+    <rect x="1250" y="10" w="10" h="1080"/>
+  </solids>
+  <extraPlatforms>
+    <level3_spike1 x="60" y="280" width="10" height="10"/>
+    <level3_spike1 x="60" y="580" width="10" height="10"/>
+    <level3_spike3 x="70" y="430" width="10" height="10"/>
+    <level3_spike0 x="40" y="270" width="20" height="10"/>
+    <level3_spike0 x="80" y="420" width="20" height="10"/>
+    <level3_spike0 x="40" y="570" width="20" height="10"/>
+    <level3_spike2 x="40" y="290" width="20" height="10"/>
+    <level3_spike2 x="40" y="590" width="20" height="10"/>
+    <level3_spike2 x="80" y="440" width="20" height="10"/>
+    <level3_spike2 x="410" y="50" width="30" height="10"/>
+    <level3_spike2 x="470" y="50" width="60" height="10"/>
+    <level3_spike2 x="560" y="50" width="80" height="10"/>
+    <level3_spike2 x="670" y="50" width="60" height="10"/>
+    <level3_spike2 x="760" y="50" width="30" height="10"/>
+    <level3_spike1 x="1160" y="790" width="10" height="10"/>
+    <level3_spike3 x="1170" y="930" width="10" height="10"/>
+    <level3_spike0 x="1140" y="780" width="20" height="10"/>
+    <level3_spike0 x="1180" y="920" width="20" height="10"/>
+    <level3_spike2 x="1140" y="800" width="20" height="10"/>
+    <level3_spike2 x="1180" y="940" width="20" height="10"/>
+    <LargeCrate x="600" y="150"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level3_specialPlatformSmall x="50" y="210" speed="120" movementType="1" animated="1">
+      <node x="50" y="360"/>
+    </level3_specialPlatformSmall>
+    <level3_specialPlatformSmall x="1150" y="720" speed="100" movementType="1" animated="1">
+      <node x="1150" y="1020"/>
+    </level3_specialPlatformSmall>
+    <level3_specialPlatformSmall x="90" y="360" speed="90" movementType="1" animated="1">
+      <node x="90" y="510"/>
+    </level3_specialPlatformSmall>
+    <level3_specialPlatformSmall x="50" y="510" speed="60" movementType="1" animated="1">
+      <node x="50" y="660"/>
+    </level3_specialPlatformSmall>
+  </movingPlatforms>
+  <BGLayer1>
+    <level3_window x="0" y="80" width="640" height="320" scrollFactor="0.2"/>
+    <level3_painting1 x="130" y="430" scrollFactor="0.2"/>
+    <level3_painting2 x="350" y="450" scrollFactor="0.2"/>
+    <level3_painting3 x="570" y="470" scrollFactor="0.2"/>
+    <level3_window x="0" y="640" width="1260" height="320" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer3>
+    <level3_desk3 x="470" y="1060"/>
+    <sodaPack x="560" y="700" scrollFactor="0.2"/>
+    <level3_desk2 x="40" y="1020"/>
+    <level3_desk1 x="1020" y="1020"/>
+  </BGLayer3>
+  <objects>
+    <L1_SmallCrate x="246" y="578" width="32"/>
+    <L1_SmallCrate x="927" y="576" width="32"/>
+    <exit x="1026" y="120"/>
+    <smallSugarBag x="584" y="598" width="22"/>
+    <Bottle x="649" y="23" width="12"/>
+  </objects>
+  <characters>
+    <army x="14" y="1045" speed="40" movementType="1">
+      <node x="444" y="1047"/>
+    </army>
+    <inspector x="647" y="1053" speed="40" movementType="1">
+      <node x="998" y="1051"/>
+    </inspector>
+    <player x="202" y="1045" speed="40" movementType="1" startsFirst="1" levelName="Final Countdown" andreInitialFlip="0" liselotInitialFlip="1" followWidth="0" followHeight="0">
+      <node x="300" y="1052"/>
+    </player>
+    <liselot x="1136" y="1043" speed="40" movementType="1">
+      <node x="1188" y="1036"/>
+    </liselot>
+  </characters>
+</level>

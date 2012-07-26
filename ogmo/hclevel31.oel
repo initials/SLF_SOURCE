@@ -1,0 +1,91 @@
+<level>
+  <width>1000</width>
+  <height>1100</height>
+  <solids>
+    <rect x="0" y="0" w="1000" h="10"/>
+    <rect x="0" y="10" w="10" h="1090"/>
+    <rect x="10" y="250" w="390" h="100"/>
+    <rect x="10" y="870" w="200" h="230"/>
+    <rect x="50" y="450" w="350" h="70"/>
+    <rect x="90" y="10" w="60" h="180"/>
+    <rect x="120" y="650" w="180" h="70"/>
+    <rect x="180" y="350" w="220" h="20"/>
+    <rect x="210" y="940" w="790" h="160"/>
+    <rect x="320" y="870" w="20" h="20"/>
+    <rect x="350" y="370" w="50" h="80"/>
+    <rect x="380" y="670" w="180" h="50"/>
+    <rect x="400" y="500" w="480" h="20"/>
+    <rect x="450" y="870" w="320" h="70"/>
+    <rect x="460" y="230" w="350" h="70"/>
+    <rect x="510" y="390" w="40" h="110"/>
+    <rect x="550" y="450" w="330" h="50"/>
+    <rect x="590" y="10" w="60" h="150"/>
+    <rect x="590" y="690" w="290" h="100"/>
+    <rect x="810" y="260" w="190" h="40"/>
+    <rect x="840" y="520" w="20" h="170"/>
+    <rect x="970" y="520" w="30" h="170"/>
+    <rect x="990" y="10" w="10" h="250"/>
+    <rect x="990" y="300" w="10" h="220"/>
+    <rect x="990" y="690" w="10" h="250"/>
+  </solids>
+  <extraPlatforms>
+    <level3_spike3 x="580" y="100" width="10" height="60"/>
+    <level3_spike0 x="210" y="930" width="240" height="10"/>
+    <level3_spike3 x="340" y="370" width="10" height="80"/>
+    <LargeCrate x="80" y="190"/>
+    <LargeCrate x="580" y="170"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level3_specialPlatformSmall x="10" y="450" speed="120" movementType="1" animated="1">
+      <node x="10" y="800"/>
+    </level3_specialPlatformSmall>
+  </movingPlatforms>
+  <BGLayer1>
+    <level3_painting2 x="50" y="100" scrollFactor="0.2"/>
+    <level3_salesChart x="230" y="130" width="67" height="67" scrollFactor="0.2"/>
+    <level3_painting2 x="410" y="360" scrollFactor="0.2"/>
+    <level3_painting2 x="440" y="90" scrollFactor="0.2"/>
+    <level3_painting3 x="370" y="100" scrollFactor="0.2"/>
+    <level3_painting3 x="490" y="340" scrollFactor="0.2"/>
+    <level3_painting3 x="510" y="80" scrollFactor="0.2"/>
+    <level3_painting3 x="860" y="140" scrollFactor="0.2"/>
+    <level3_window x="0" y="620" width="1000" height="320" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <bookCase x="610" y="360" scrollFactor="0.75"/>
+  </BGLayer2>
+  <BGLayer3>
+    <level3_desk3 x="20" y="840"/>
+    <palettes x="140" y="610" scrollFactor="0.2"/>
+    <palettes x="210" y="210" scrollFactor="0.2"/>
+    <level3_desk1 x="100" y="380"/>
+    <level3_desk1 x="460" y="600"/>
+    <level3_desk1 x="440" y="800"/>
+    <level3_desk1 x="480" y="160"/>
+    <sugarBags x="550" y="410" scrollFactor="0.2"/>
+    <palettes x="590" y="650" scrollFactor="0.2"/>
+    <sugarBags x="650" y="830" scrollFactor="0.2"/>
+    <palettes x="650" y="190" scrollFactor="0.2"/>
+    <sodaPack x="810" y="430" scrollFactor="0.2"/>
+    <level3_desk1 x="810" y="870"/>
+    <level3_spike2 x="590" y="160" width="60" height="10"/>
+    <level3_spike2 x="10" y="350" width="170" height="10"/>
+  </BGLayer3>
+  <objects>
+    <exit x="661" y="600"/>
+    <smallSugarBag x="327" y="679" width="22"/>
+    <Bottle x="309" y="400" width="12"/>
+    <L1_SmallCrate x="737" y="207" width="32"/>
+  </objects>
+  <characters>
+    <liselot x="19" y="204" speed="40" movementType="1">
+      <node x="61" y="203"/>
+    </liselot>
+    <player x="948" y="214" speed="40" movementType="1" startsFirst="1" levelName="Dance Dance" andreInitialFlip="1" liselotInitialFlip="0" followWidth="0" followHeight="0">
+      <node x="948" y="214"/>
+    </player>
+    <inspector x="750" y="415" speed="40" movementType="1">
+      <node x="838" y="416"/>
+    </inspector>
+  </characters>
+</level>

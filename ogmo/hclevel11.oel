@@ -1,0 +1,77 @@
+<level>
+  <width>1380</width>
+  <height>640</height>
+  <solids>
+    <rect x="0" y="0" w="1380" h="10"/>
+    <rect x="0" y="10" w="80" h="630"/>
+    <rect x="80" y="150" w="150" h="300"/>
+    <rect x="80" y="550" w="1300" h="90"/>
+    <rect x="160" y="10" w="60" h="80"/>
+    <rect x="410" y="150" w="100" h="100"/>
+    <rect x="410" y="350" w="700" h="100"/>
+    <rect x="590" y="10" w="130" h="340"/>
+    <rect x="780" y="150" w="100" h="40"/>
+    <rect x="950" y="150" w="60" h="20"/>
+    <rect x="1080" y="150" w="200" h="100"/>
+    <rect x="1130" y="430" w="20" h="20"/>
+    <rect x="1280" y="440" w="100" h="110"/>
+    <rect x="1370" y="10" w="10" h="430"/>
+  </solids>
+  <extraPlatforms>
+    <LargeCrate x="150" y="90"/>
+    <LargeCrate x="420" y="290"/>
+    <level1_specialBlock x="430" y="250" speed="40" movementType="1" animated="0"/>
+    <spike3 x="580" y="10" width="10" height="340"/>
+    <LargeCrate x="140" y="490"/>
+    <level1_specialBlock x="170" y="450" speed="40" movementType="1" animated="0"/>
+    <spike1 x="230" y="150" width="10" height="100"/>
+    <spike3 x="400" y="170" width="10" height="60"/>
+    <spike1 x="230" y="350" width="10" height="100"/>
+    <spike1 x="720" y="10" width="10" height="340"/>
+    <spike3 x="770" y="160" width="10" height="20"/>
+    <spike0 x="980" y="140" width="20" height="10"/>
+    <spike0 x="1280" y="430" width="90" height="10"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level1_specialBlock x="240" y="150" speed="120" movementType="1" animated="0">
+      <node x="240" y="440"/>
+    </level1_specialBlock>
+    <level1_specialPlatformSmall x="730" y="130" speed="60" movementType="1" animated="1">
+      <node x="730" y="290"/>
+    </level1_specialPlatformSmall>
+  </movingPlatforms>
+  <BGLayer1>
+    <level1_windows x="100" y="30" width="180" height="54" scrollFactor="0.1"/>
+    <level1_shelfTile x="70" y="0" width="480" height="560" scrollFactor="0.2"/>
+    <L1_Shelf x="580" y="230" scrollFactor="0.2"/>
+    <level1_shelfTile x="840" y="0" width="400" height="560" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <sugarBags x="390" y="510" scrollFactor="0.5"/>
+    <cratesBox x="230" y="370" scrollFactor="0.6"/>
+    <cratesBox x="780" y="370" scrollFactor="0.8"/>
+    <sugarBagsAndCrates x="870" y="220" scrollFactor="0.95"/>
+  </BGLayer2>
+  <BGLayer3>
+    <sugarBags x="410" y="110" scrollFactor="0.2"/>
+    <sodaPack x="800" y="130" scrollFactor="0.2"/>
+    <sodaPack x="640" y="530" scrollFactor="0.2"/>
+    <palettes x="1030" y="510" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <exit x="1212" y="59"/>
+    <L1_SmallCrate x="500" y="328" width="32"/>
+    <Bottle x="1318" y="205" width="12"/>
+  </objects>
+  <characters>
+    <player x="83" y="106" speed="40" movementType="1" startsFirst="1" levelName="Bust Out" andreInitialFlip="0" liselotInitialFlip="0" followWidth="0" followHeight="0">
+      <node x="107" y="109"/>
+    </player>
+    <liselot x="87" y="503" speed="40" movementType="1">
+      <node x="113" y="509"/>
+    </liselot>
+    <army x="782" y="306" speed="120" movementType="1">
+      <node x="1077" y="314"/>
+    </army>
+  </characters>
+</level>

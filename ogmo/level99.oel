@@ -1,0 +1,52 @@
+<level>
+  <width>1800</width>
+  <height>840</height>
+  <solids>
+    <rect x="0" y="0" w="10" h="840"/>
+    <rect x="10" y="540" w="1790" h="300"/>
+    <rect x="150" y="440" w="190" h="10"/>
+    <rect x="550" y="440" w="150" h="100"/>
+    <rect x="950" y="420" w="850" h="120"/>
+    <rect x="1790" y="0" w="10" h="420"/>
+  </solids>
+  <extraPlatforms>
+    <helpBox x="1030" y="360" type="0" helpString="To finish a level, get both Andre and Liselot to the exit."/>
+    <helpBox x="1230" y="360" type="0" helpString="Liselot can stop and have a chat with co-workers. Press 'A' to talk."/>
+    <helpBox x="1570" y="360" type="0" helpString="Talk to Andre by pressing 'A' while facing him."/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level1_specialPlatformSmall x="810" y="290" speed="40" movementType="1" animated="1">
+      <node x="1000" y="290"/>
+    </level1_specialPlatformSmall>
+  </movingPlatforms>
+  <BGLayer2>
+    <cratesBox x="1060" y="240" scrollFactor="0.95"/>
+  </BGLayer2>
+  <BGLayer3>
+    <palettes x="1010" y="380" scrollFactor="0.2"/>
+    <sodaPack x="590" y="320" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <L1_SmallCrate x="726" y="317" width="32"/>
+    <exit x="1717" y="330"/>
+    <smallSugarBag x="1078" y="196" width="22"/>
+    <Bottle x="1333" y="386" width="12"/>
+    <andreCheckPoint x="959" y="364" player="1"/>
+    <liselotCheckPoint x="1197" y="363" player="1"/>
+    <L1_SmallCrate x="158" y="415" width="32"/>
+    <L1_SmallCrate x="298" y="411" width="32"/>
+    <L1_SmallCrate x="551" y="417" width="32"/>
+    <L1_SmallCrate x="670" y="413" width="32"/>
+  </objects>
+  <characters>
+    <liselot x="225" y="390" speed="40" movementType="1">
+      <node x="272" y="392"/>
+    </liselot>
+    <player x="24" y="492" speed="40" movementType="1" startsFirst="1" levelName="Tutorial" andreInitialFlip="0" liselotInitialFlip="0" followWidth="0" followHeight="480">
+      <node x="60" y="494"/>
+    </player>
+    <worker x="1352" y="383" speed="40" movementType="1">
+      <node x="1539" y="381"/>
+    </worker>
+  </characters>
+</level>

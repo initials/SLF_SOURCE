@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  SuperLemonadeFactory
+
+  Created by Shane Brouwer on 16/11/11.
+  Copyright (c) 2011 initials. All rights reserved.
+*/
+"kViewCredits" = "Viewed Credits";
+"kViewStats" = "Viewed Statistics";
+"kUnlockAllWarehouseLevels" = "Unlocked All Warehouse Levels";
+"k3CapWarehouse" = "Collected Bottle On All Warehouse Levels";
+"kUnlockAllFactoryLevels" = "Unlocked All Factory Levels";
+"k3CapFactory"     = "Collected Bottle On All Factory Levels";
+"kUnlockAllManagementLevels"     = "Unlocked All Management Levels";
+"k3CapManagement"    = "Collected Bottle On All Management Levels"; 
+"k108Caps"= "Collected Bottle On Every Single Level!";
+
+"khcUnlockAllWarehouseLevels" = "Unlocked All Hardcore Warehouse Levels";
+"khc3CapWarehouse" = "Collected Bottle On All Hardcore Warehouse Levels";
+"khcUnlockAllFactoryLevels" = "Unlocked All Hardcore Factory Levels";
+"khc3CapFactory"     = "Collected Bottle On All Hardcore Factory Levels";
+"khcUnlockAllManagementLevels"     = "Unlocked All Hardcore Management Levels";
+"khc3CapManagement"    = "Collected Bottle On All Hardcore Management Levels"; 
+"khc108Caps"= "Collected Bottle On Every Single Hardcore Level!";
+"kTalkToAllEmployees" = "Talk To All Employees";
+"kTalkToAndre" = "Talk To Andre On All Levels";
+"kFactoryOwner" = "Own The Factory!";

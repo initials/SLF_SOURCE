@@ -1,0 +1,80 @@
+<level>
+  <width>1000</width>
+  <height>960</height>
+  <solids>
+    <rect x="0" y="0" w="1000" h="10"/>
+    <rect x="0" y="10" w="10" h="950"/>
+    <rect x="10" y="240" w="200" h="200"/>
+    <rect x="10" y="640" w="200" h="320"/>
+    <rect x="210" y="840" w="790" h="120"/>
+    <rect x="430" y="240" w="350" h="100"/>
+    <rect x="440" y="640" w="560" h="200"/>
+    <rect x="450" y="340" w="290" h="100"/>
+    <rect x="470" y="10" w="60" h="170"/>
+    <rect x="470" y="440" w="60" h="140"/>
+    <rect x="630" y="120" w="170" h="120"/>
+    <rect x="730" y="10" w="270" h="50"/>
+    <rect x="790" y="440" w="210" h="200"/>
+    <rect x="990" y="60" w="10" h="380"/>
+  </solids>
+  <extraPlatforms>
+    <LargeCrate x="460" y="580"/>
+    <LargeCrate x="460" y="180"/>
+    <spike0 x="220" y="830" width="210" height="10"/>
+    <spike1 x="210" y="660" width="10" height="170"/>
+    <spike3 x="430" y="660" width="10" height="170"/>
+    <helpBox x="470" y="580" type="0" helpString="This next section will be easier if you only have to do it once."/>
+    <helpBox x="620" y="580" type="0" helpString="Swipe down while Andre and Liselot are touching to piggyback."/>
+    <LargeCrate x="720" y="60"/>
+    <spike1 x="740" y="340" width="10" height="100"/>
+    <level1_specialBlock x="860" y="200" speed="40" movementType="1" animated="0"/>
+    <helpBox x="90" y="180" type="0" helpString="If you've already collected a bottle in a level, it will be orange."/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level1_specialPlatform x="210" y="640" speed="60" movementType="1" animated="0">
+      <node x="340" y="640"/>
+    </level1_specialPlatform>
+    <level1_specialPlatformSmall x="250" y="320" speed="60" movementType="1" animated="1">
+      <node x="250" y="480"/>
+    </level1_specialPlatformSmall>
+    <level1_specialPlatformSmall x="370" y="400" speed="40" movementType="1" animated="1">
+      <node x="370" y="560"/>
+    </level1_specialPlatformSmall>
+    <level1_specialPlatformSmall x="300" y="260" speed="80" movementType="1" animated="1">
+      <node x="300" y="420"/>
+    </level1_specialPlatformSmall>
+  </movingPlatforms>
+  <BGLayer1>
+    <level1_windows x="10" y="50" width="300" height="54" scrollFactor="0.1"/>
+    <noticeBoard x="390" y="490" scrollFactor="0.2"/>
+    <noticeBoard x="560" y="530" scrollFactor="0.2"/>
+    <noticeBoard x="220" y="390" scrollFactor="0.2"/>
+    <noticeBoard x="380" y="280" scrollFactor="0.2"/>
+    <level1_shelfTile x="0" y="0" width="320" height="880" scrollFactor="0.2"/>
+    <level1_shelfTile x="380" y="0" width="240" height="880" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <sugarBagsAndCrates x="10" y="510" scrollFactor="0.6"/>
+  </BGLayer2>
+  <BGLayer3>
+    <sugarBags x="870" y="400" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <exit x="565" y="150"/>
+    <andreCheckPoint x="554" y="584" player="1"/>
+    <liselotCheckPoint x="182" y="584" player="1"/>
+    <L1_SmallCrate x="650" y="98" width="32"/>
+    <Bottle x="949" y="92" width="12"/>
+  </objects>
+  <characters>
+    <player x="19" y="196" speed="40" movementType="1" startsFirst="1" levelName="Abyss" andreInitialFlip="0" liselotInitialFlip="1" followWidth="0" followHeight="0">
+      <node x="59" y="197"/>
+    </player>
+    <liselot x="761" y="594" speed="40" movementType="1">
+      <node x="796" y="591"/>
+    </liselot>
+    <army x="16" y="595" speed="40" movementType="1">
+      <node x="179" y="595"/>
+    </army>
+  </characters>
+</level>

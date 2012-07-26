@@ -1,0 +1,91 @@
+<level>
+  <width>1000</width>
+  <height>750</height>
+  <solids>
+    <rect x="0" y="0" w="1000" h="10"/>
+    <rect x="0" y="10" w="10" h="740"/>
+    <rect x="10" y="170" w="100" h="30"/>
+    <rect x="10" y="310" w="230" h="230"/>
+    <rect x="10" y="650" w="990" h="100"/>
+    <rect x="110" y="540" w="350" h="30"/>
+    <rect x="180" y="150" w="150" h="10"/>
+    <rect x="240" y="350" w="180" h="190"/>
+    <rect x="420" y="390" w="40" h="150"/>
+    <rect x="450" y="170" w="40" h="20"/>
+    <rect x="460" y="470" w="90" h="20"/>
+    <rect x="570" y="170" w="60" h="20"/>
+    <rect x="590" y="290" w="30" h="30"/>
+    <rect x="670" y="530" w="40" h="40"/>
+    <rect x="710" y="170" w="80" h="20"/>
+    <rect x="710" y="380" w="40" h="50"/>
+    <rect x="710" y="550" w="290" h="20"/>
+    <rect x="810" y="430" w="190" h="120"/>
+    <rect x="810" y="570" w="190" h="80"/>
+    <rect x="990" y="10" w="10" h="420"/>
+  </solids>
+  <fakesolids>
+    <rect x="110" y="570" w="350" h="80"/>
+  </fakesolids>
+  <extraPlatforms>
+    <level3_spike0 x="180" y="140" width="150" height="10"/>
+    <level3_specialBlock x="810" y="150" speed="40" movementType="1" animated="0"/>
+    <level3_specialBlock x="650" y="120" speed="40" movementType="1" animated="0"/>
+    <level3_specialBlock x="510" y="150" speed="40" movementType="1" animated="0"/>
+    <level3_specialBlock x="390" y="120" speed="40" movementType="1" animated="0"/>
+    <level3_spike0 x="450" y="160" width="40" height="10"/>
+    <level3_spike0 x="570" y="160" width="60" height="10"/>
+    <level3_spike0 x="710" y="160" width="80" height="10"/>
+    <level3_spike1 x="490" y="170" width="10" height="20"/>
+    <level3_spike1 x="630" y="170" width="10" height="20"/>
+    <level3_spike1 x="790" y="170" width="10" height="20"/>
+    <level3_spike3 x="440" y="170" width="10" height="20"/>
+    <level3_spike3 x="560" y="170" width="10" height="20"/>
+    <level3_spike3 x="700" y="170" width="10" height="20"/>
+    <level3_spike0 x="590" y="280" width="30" height="10"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level3_specialPlatformSmall x="180" y="100" speed="100" movementType="1" animated="1">
+      <node x="290" y="100"/>
+    </level3_specialPlatformSmall>
+    <level3_specialPlatformSmall x="950" y="200" speed="90" movementType="1" animated="1">
+      <node x="950" y="350"/>
+    </level3_specialPlatformSmall>
+  </movingPlatforms>
+  <BGLayer1>
+    <level3_painting3 x="530" y="320" scrollFactor="0.2"/>
+    <level3_painting1 x="390" y="200" scrollFactor="0.2"/>
+    <level3_salesChart x="660" y="450" width="67" height="67" scrollFactor="0.2"/>
+    <level3_window x="0" y="0" width="560" height="320" scrollFactor="0.2"/>
+    <level3_window x="120" y="430" width="540" height="320" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <filingCab2 x="730" y="590" scrollFactor="0.76"/>
+  </BGLayer2>
+  <BGLayer3>
+    <level3_desk2 x="130" y="240"/>
+    <level3_desk1 x="310" y="280"/>
+    <plant2 x="520" y="550" scrollFactor="0.2"/>
+    <plant1 x="110" y="200" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <exit x="25" y="80"/>
+    <Bottle x="54" y="580" width="12"/>
+    <L1_SmallCrate x="517" y="446" width="32"/>
+    <L1_SmallCrate x="910" y="407" width="32"/>
+    <smallSugarBag x="594" y="240" width="22"/>
+  </objects>
+  <characters>
+    <player x="475" y="605" speed="40" movementType="1" startsFirst="1" levelName="You'll Remember When I'm Gone" andreInitialFlip="0" liselotInitialFlip="1" followWidth="0" followHeight="0">
+      <node x="507" y="611"/>
+    </player>
+    <liselot x="822" y="384" speed="40" movementType="1">
+      <node x="862" y="390"/>
+    </liselot>
+    <inspector x="11" y="276" speed="40" movementType="1">
+      <node x="221" y="277"/>
+    </inspector>
+    <army x="242" y="305" speed="40" movementType="1">
+      <node x="392" y="305"/>
+    </army>
+  </characters>
+</level>

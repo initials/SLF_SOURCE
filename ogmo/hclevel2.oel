@@ -1,0 +1,76 @@
+<level>
+  <width>1400</width>
+  <height>640</height>
+  <solids>
+    <rect x="0" y="0" w="1400" h="10"/>
+    <rect x="0" y="10" w="20" h="630"/>
+    <rect x="20" y="520" w="1380" h="120"/>
+    <rect x="200" y="110" w="20" h="20"/>
+    <rect x="260" y="160" w="260" h="360"/>
+    <rect x="610" y="160" w="400" h="80"/>
+    <rect x="740" y="400" w="280" h="120"/>
+    <rect x="1050" y="310" w="20" h="20"/>
+    <rect x="1070" y="210" w="20" h="20"/>
+    <rect x="1090" y="450" w="70" h="70"/>
+    <rect x="1390" y="10" w="10" h="510"/>
+  </solids>
+  <fakesolids>
+    <rect x="610" y="10" w="400" h="150"/>
+  </fakesolids>
+  <extraPlatforms>
+    <level1_specialBlock x="220" y="480" speed="40" movementType="1" animated="0"/>
+    <level1_specialBlock x="520" y="480" speed="40" movementType="1" animated="0"/>
+    <spike0 x="1020" y="510" width="70" height="10"/>
+    <spike3 x="250" y="440" width="10" height="40"/>
+    <spike3 x="730" y="410" width="10" height="110"/>
+    <spike1 x="520" y="440" width="10" height="40"/>
+    <spike1 x="1020" y="410" width="10" height="100"/>
+    <spike1 x="1160" y="460" width="10" height="60"/>
+    <spike3 x="190" y="110" width="10" height="20"/>
+    <spike1 x="220" y="110" width="10" height="20"/>
+    <spike1 x="520" y="160" width="10" height="80"/>
+    <spike3 x="600" y="160" width="10" height="80"/>
+  </extraPlatforms>
+  <movingPlatforms>
+    <level1_specialPlatformSmall x="100" y="160" speed="80" movementType="1" animated="1">
+      <node x="100" y="430"/>
+    </level1_specialPlatformSmall>
+  </movingPlatforms>
+  <BGLayer1>
+    <level1_windows x="0" y="290" width="480" height="54" scrollFactor="0.1"/>
+    <level1_windows x="300" y="200" width="540" height="54" scrollFactor="0.1"/>
+    <level1_shelfTile x="260" y="0" width="560" height="520" scrollFactor="0.2"/>
+    <noticeBoard x="210" y="400" scrollFactor="0.1"/>
+    <L1_Shelf x="20" y="200" scrollFactor="0.2"/>
+  </BGLayer1>
+  <BGLayer2>
+    <cratesBox x="0" y="340" scrollFactor="0.5"/>
+    <sugarBagsAndCrates x="380" y="390" scrollFactor="0.7"/>
+    <sugarBagsAndCrates x="720" y="390" scrollFactor="0.6"/>
+    <sugarBagsAndCrates x="1100" y="390" scrollFactor="0.7"/>
+  </BGLayer2>
+  <BGLayer3>
+    <sugarBags x="1200" y="480" scrollFactor="0.2"/>
+    <palettes x="880" y="360" scrollFactor="0.2"/>
+  </BGLayer3>
+  <objects>
+    <exit x="1320" y="431"/>
+    <L1_SmallCrate x="763" y="373" width="32"/>
+    <smallSugarBag x="1216" y="336" width="22"/>
+    <Bottle x="1061" y="78" width="12"/>
+  </objects>
+  <characters>
+    <worker x="804" y="362" speed="120" movementType="1">
+      <node x="988" y="363"/>
+    </worker>
+    <army x="264" y="115" speed="120" movementType="1">
+      <node x="493" y="115"/>
+    </army>
+    <player x="27" y="475" speed="40" movementType="1" startsFirst="1" levelName="Gentle Introduction" andreInitialFlip="0" liselotInitialFlip="0" followWidth="0" followHeight="0">
+      <node x="79" y="477"/>
+    </player>
+    <liselot x="609" y="472" speed="40" movementType="1">
+      <node x="676" y="474"/>
+    </liselot>
+  </characters>
+</level>
